@@ -16,4 +16,9 @@ int main(){
    cout << "The value of pointer variable pointing is  : " << *ptr << endl;
    cout << "The value of name variable is :" << name <<endl;
 
+   //changing value with help of pointer
+   *ptr = "Issac Kondreddy";
+   cout << "The value of name variable is :" << name <<endl;
+
+
 }
